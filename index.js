@@ -15,7 +15,7 @@ function logShout(string)
 
 function logWhisper(string)
 {
-  console.log(shout(string))
+  console.log(whisper(string))
 }
 
 function sayHiToGrandma(string)
@@ -26,7 +26,7 @@ function sayHiToGrandma(string)
   }
   else if (string === whisper(string))
   {
-    return "I CAN'T HEAR YOU!"
+    return "I can't hear you!"
   }
   else if (string === "I love you, Grandma.")
   {
