@@ -30,3 +30,5 @@ function sayHiToGrandma(string)
   }
   else if (string === "")
 }
+
+"I love you, Grandma.")).toEqual("I love you, too.")
