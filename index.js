@@ -28,7 +28,8 @@ function sayHiToGrandma(string)
   {
     return "I CAN'T HEAR YOU!"
   }
-  else if (string === "")
+  else if (string === "I love you, Grandma.")
+  {
+    return "I love you, too."
+  }
 }
-
-"I love you, Grandma.")).toEqual("I love you, too.")
